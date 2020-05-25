@@ -22,7 +22,7 @@ int aibatcounter = 0;
 class Bat {
 private:
     Vector2f batPosition;
-    double batSpeed = 0.5f;
+    double batSpeed = 0.85f;
     RectangleShape BatObject;
 
 public:
@@ -339,12 +339,11 @@ void Ball::reboundSides() {
             {
                 batscore++;
                 ballPosition.x = windowWidth /2 ;
-                ballPosition.y = windowWidth / 2;
+                ballPosition.y = windowHeight / 2;
 
-                ballVelocityY *= -1;
-                if(aibatcounter %14 == 0) {
-                    ballVelocityX *= -1;
-                }
+                if(rand() % 2 == 1) ballVelocityY *= -1;
+                if (rand()% 2 == 2) ballVelocityX *= -1;
+                
     }
     }
 void Ball::passBottom()  {
@@ -352,11 +351,8 @@ void Ball::passBottom()  {
   { ballPosition.x = windowWidth/2;
       ballPosition.y = windowHeight/2;
       lives--;
-      ballVelocityY *= -1;
-      
-      if(aibatcounter %14 == 0) {
-          ballVelocityX *= -1;
-      }
+       if(rand() % 2 == 1) ballVelocityY *= -1;
+        if (rand()% 2 == 2) ballVelocityX *= -1;
   }
     
 
@@ -379,4 +375,3 @@ void Ball::go () {
     ballVelocityY = 0.5f;
     ballVelocityX = 0.5f;
 }
-
