@@ -10,4 +10,6 @@ That's all! Enjoy
 
 ## Screenshots
 
-![Screenshot](Screenshots/Screenshot%201.png?raw=true "Sample Main Menu")
+![Screenshot](Screenshots/Screenshot%201.png?raw=true)
+![Screenshot](Screenshots/Screenshot%202.png?raw=true)
+![Screenshot](Screenshots/Screenshot%203.png?raw=true)
