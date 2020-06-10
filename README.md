@@ -7,3 +7,9 @@ If the font does not load then make sure to copy the entire pathname of the font
 
 
 That's all! Enjoy
+
+## Screenshots
+
+![Screenshot](Screenshots/2016-12-19.png?raw=true "Sample Main Menu")
+![Screenshot](Screenshots/2016-12-17.png?raw=true "Sample Main Menu")
+![Screenshot](Screenshots/2016-12-17%20(1).png?raw=true "Sample Main Menu")
