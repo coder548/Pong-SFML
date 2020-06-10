@@ -11,5 +11,3 @@ That's all! Enjoy
 ## Screenshots
 
 ![Screenshot](Screenshots/Screenshot 1.png?raw=true "Sample Main Menu")
-![Screenshot](Screenshot 2.png)
-![Screenshot](Screenshot 3.png)
